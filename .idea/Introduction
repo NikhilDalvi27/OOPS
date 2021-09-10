@@ -1,0 +1,85 @@
+https://www.youtube.com/watch?v=a199KZGMNxk
+
+Basics
+If public class then className should match with fileName
+
+
+
+Class is a BluePrint
+Object is the instance of that class
+
+
+1) Inheritance
+- Child Class Inherits the Properties of Parent Class
+- Inheritance represents the IS-A relationship which is also known as a parent-child relationship.
+- If a certain property or method is not there in the Child class, then compiler searches for that in the parent class
+  if not found there, then the search is continued up the chain (MultiLevel Inheritance)
+
+
+Inheritance Usage
+- This prevents code duplication, bcoz we reuse methods and fields of the parent class
+- For Method Overriding (so runtime polymorphism can be achieved).
+
+
+Terms used in Inheritance
+Class: A class is a group of objects which have common properties.
+ It is a template or blueprint from which objects are created.
+
+Sub Class/Child Class: Subclass is a class which inherits the other class.
+It is also called a derived class, extended class, or child class.
+
+Super Class/Parent Class: Superclass is the class from where a subclass inherits the features.
+It is also called a base class or a parent class.
+
+Reusability: As the name specifies, reusability is a mechanism which facilitates you to reuse the fields
+and methods of the existing class when you create a new class.
+You can use the same fields and methods already defined in the previous class.
+
+
+
+
+2) PolyMorphism
+Polymorphism in Java is a concept by which we can perform a single action in different ways.
+Polymorphism is derived from 2 Greek words: poly and morphs. The word "poly" means many and "morphs" means forms.
+So polymorphism means many forms.
+
+There are two types of polymorphism in Java:
+compile-time polymorphism and runtime polymorphism.
+We can perform polymorphism in java by method overloading and method overriding.
+
+method overloading ->  Parameters needs to be different, rest can change
+method overriding -> needs inheritance, Method signature should be same
+
+
+3)Encapsulation
+-It is basically used for Data Hiding and Data Protection for Security Reasons
+  So that other classes are not able to change the properties of Our class directly
+  But only through the methods that we have exposed (as Public) to change the data
+
+
+-It is Achieved by creating a Class, using access modifiers and packages
+Packages are nothing but folders which can help in restricting Data Access
+
+
+Encapsulation in Java is a process of wrapping code and data together into a single unit,
+for example, a capsule which is mixed of several medicines.
+
+
+4)Abstraction
+Abstraction is a process of hiding the implementation details and showing only functionality to the user.
+Another way, it shows only essential things to the user and hides the internal details,
+Example
+1)we have switch to turn light on and off, we don't need to know what actually happens when we press the switch
+2)WithDrawing money from ATM, we just need to enter pincode and select withdraw cash, we are not concerned what happens
+  in the background
+
+- Abstraction is achieved using Abstract keyword and Interface
+    We Don't Instantiate the Abstract class and Interface bcoz it is a Concept
+    What we need is a specific implementation of that Concept
+
+3)Interfaces provide complete Abstraction while Abstract classes provide partial Abstraction
+
+
+
+Diamond Problem
+
